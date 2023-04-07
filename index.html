@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ma page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+    <h1>Nouvelle Affaire</h1>
+
+<body>
+	<div>
+		<label for="total_affaire">Montant total de l'affaire :</label>
+		<input type="number" id="total_affaire" name="total_affaire" placeholder="Montant en €">
+
+		<label for="total_lignes">Total des lignes :</label>
+		<input type="number" id="total_lignes" name="total_lignes">
+    </div><br>
+        
+	<div id="lignes_container"></div>
+
+    <div>
+		<button id="btn_add_ligne">+</button>
+        <label for="total_lignes">Ajouter nouveau paragraphe</label>
+	</div><br>
+
+
+	<script src="app.js"></script>
+</body>
+</html>
